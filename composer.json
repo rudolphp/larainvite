@@ -1,24 +1,24 @@
 {
-    "name": "junaidnasir/larainvite",
+    "name": "rudolphp/larainvite",
     "description": "Laravel Invitation package, existing users can invite others by email",
     "keywords": ["laravel", "invite", "invitations"],
-    "homepage": "https://github.com/junaidnasir/larainvite",
+    "homepage": "https://github.com/rudolphp/larainvite",
     "license": "MIT",
     "authors": [
         {
-            "name": "Junaid Nasir",
-            "email": "contact@junaidnasir.com"
+            "name": "Rudolph Pereira",
+            "email": "rudolph.pereira@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "^5.1",
-        "illuminate/database": "^5.1",
-        "illuminate/events": "^5.1"
+        "php": ">=7.2",
+        "illuminate/support": "^5.8",
+        "illuminate/database": "^5.8",
+        "illuminate/events": "^5.8"
     },
     "autoload": {
         "psr-4": {
-            "Junaidnasir\\Larainvite\\": "src"
+            "Rudolphp\\Larainvite\\": "src"
         }
     },
     "autoload-dev": {
